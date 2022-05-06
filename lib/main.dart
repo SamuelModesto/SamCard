@@ -17,7 +17,22 @@ class MyApp extends StatelessWidget {
             children: const [
               CircleAvatar(
                 radius: 50.0,
-                child: Image(image: AssetImage('images/fotoSamuel.png')),
+                backgroundImage: AssetImage('images/fotoSamuel.jpg'),
+              ),
+              Text(
+                'Samuel Modesto',
+                style: TextStyle(
+                    fontFamily: 'Pacifico',
+                    fontSize: 40.0,
+                    color: Colors.white),
+              ),
+              Text('SOFTWARE ENGINEER',
+                style: TextStyle(
+                  fontFamily: 'Source Sans Pro',
+                  fontSize: 20.0,
+                  color: Colors.white,
+                  letterSpacing: 2.5,
+                ),
               ),
             ],
           ),
